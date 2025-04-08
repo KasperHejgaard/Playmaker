@@ -20,10 +20,11 @@ import java.util.Map;
 public class MistralAIService {
 
     private final PathPatternParser mvcPatternParser;
-    @Value("${EyjJgz8Q6gDjNEKwjrwW3pzMJ2FRaK73")
+
+    @Value("${mistral.api.key}")
     private String mistralApiKey;
 
-    @Value("${EyjJgz8Q6gDjNEKwjrwW3pzMJ2FRaK73")
+    @Value("${mistral.api.url}")
     private String mistralApiUrl;
 
     private final RestTemplate restTemplate;
