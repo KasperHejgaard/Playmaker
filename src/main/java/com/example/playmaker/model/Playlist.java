@@ -3,6 +3,8 @@ package com.example.playmaker.model;
 
 import jakarta.persistence.*;
 
+import java.util.List;
+
 @Entity
 public class Playlist {
     @Id

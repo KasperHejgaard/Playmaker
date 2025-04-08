@@ -1,6 +1,7 @@
 package com.example.playmaker.repository;
 
-import org.apache.catalina.User;
+
+import com.example.playmaker.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<User, Long> {
