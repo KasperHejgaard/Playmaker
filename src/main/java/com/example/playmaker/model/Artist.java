@@ -1,7 +1,7 @@
 package com.example.playmaker.model;
 
+import com.example.playmaker.model.User;
 import jakarta.persistence.*;
-import org.apache.catalina.User;
 
 @Entity
 public class Artist {
